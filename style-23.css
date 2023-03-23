@@ -1,0 +1,140 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family:'Poppins';
+}
+@font-face{
+    font-family:'Poppins';
+    src:url(./fonts/Poppins-Regular.ttf)
+}
+@media only screen and  (max-width: 768px){
+    .YouTubers{ 
+        font-size: 26px !important;
+    }
+    .YouTube{ 
+        font-size: 26px !important;
+    }
+    p{
+        font-size: 20px !important;
+    }
+    .carousel-control-next{
+        left:54% !important;
+    }
+    .carousel-control-prev{
+        left:43% !important;
+    }
+}
+@media only screen and  (max-width: 425px){
+    .YouTubers{ 
+        font-size: 48px !important;
+    }
+    .YouTube{ 
+        font-size: 48px !important;
+    }
+}
+@media only screen and  (max-width: 375px){
+    .YouTubers{ 
+        font-size: 28px !important;
+    }
+    .YouTube{ 
+        font-size: 28px !important;
+    }
+}
+@media only screen and  (max-width: 320px){
+    .YouTubers{ 
+        font-size: 26px !important;
+    }
+    .YouTube{ 
+        font-size: 26px !important;
+    }
+    p{
+        font-size: 16px !important;
+    }
+}
+body{
+    overflow-x: hidden;
+}
+.container-fluid{
+    background-color: rgb(7, 7, 29);
+}
+.YouTubers{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 50px;
+    color: #FFFFFF;
+}
+.YouTube{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 50px;
+    color:  rgb(18, 233, 204); 
+}
+p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: grey;
+   
+}
+.carousel-control-prev {
+    
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background-color: gray;
+    left:44%;
+    top:84%;
+    
+}
+.carousel-control-next{
+    cursor: pointer !important;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background-color: gray;  
+    left:54%;
+    top:84%;
+}
+.buttons:hover{
+background-color: #FFFFFF;
+}
+.buttons:hover .icons {
+    filter: invert(100%) sepia(82%) saturate(7430%) hue-rotate(12deg) brightness(112%) contrast(117%) !important;
+}
+.indic-but{
+    height: 10px !important;
+    width: 10px !important;
+    border-radius: 100% !important;
+}
+.indic-but-2{
+    height: 20px !important;
+    width: 20px !important;
+    border-radius: 100% !important;
+}
+.indicators-2{
+    margin-left: 30% !important;
+    margin-right: 27% !important;
+}
+.carousel-indicators{
+    margin-left: 46%;
+    margin-right: 46%;
+}
+.carousel-indicators .active{
+    background-color: rgb(42, 186, 243) !important;
+}
+
+.music-1{
+    left:6%;
+    top:6%;
+    border-radius: 10px !important;
+}
+.music-2{
+    left:5%;
+    top:6%;
+    border-radius: 10px !important;
+}
+
